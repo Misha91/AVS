@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f2" displayName="Config" projectFiles="true">
+        <itemPath>../../../../Project/AVS-Demos/01_AVS-SC-KIT-Led_Blick/inc/system_conf.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f7" displayName="SCKIT_EVAL" projectFiles="true">
+        <itemPath>../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.h</itemPath>
+        <itemPath>../../../../Utilities/STM32_EVAL/stm32_eval.h</itemPath>
+        <itemPath>../../../../Utilities/STM32_EVAL/Common/stm32_eval_spi_accel.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f8" displayName="STM32F2xx" projectFiles="true">
+        <logicalFolder name="f3" displayName="CMSYS" projectFiles="true">
+          <itemPath>../../../../Libraries/CMSIS/Include/core_cm3.h</itemPath>
+          <itemPath>../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include/stm32f2xx.h</itemPath>
+          <itemPath>../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include/system_stm32f2xx.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f1" displayName="StdPeriph_Driver" projectFiles="true">
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/misc.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_adc.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_can.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_crc.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_cryp.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dac.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dbgmcu.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dcmi.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dma.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_exti.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_flash.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_fsmc.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_gpio.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_hash.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_i2c.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_iwdg.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_pwr.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rcc.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rng.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rtc.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_sdio.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_spi.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_syscfg.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_tim.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_usart.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_wwdg.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="System" projectFiles="true">
+        <itemPath>../../../../Utilities/Third_Party/System/sckit_debug.h</itemPath>
+        <itemPath>../../../../Utilities/Third_Party/System/serial_driver.h</itemPath>
+        <itemPath>../../../../Utilities/Third_Party/System/syscalls.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="User" projectFiles="true">
+        <itemPath>../inc/stm32f2xx_it.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f8" displayName="SCKIT_EVAL" projectFiles="true">
+        <itemPath>../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.c</itemPath>
+        <itemPath>../../../../Utilities/STM32_EVAL/stm32_eval.c</itemPath>
+        <itemPath>../../../../Utilities/STM32_EVAL/Common/stm32_eval_spi_accel.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="STM32F2xx" projectFiles="true">
+        <logicalFolder name="f3" displayName="CMSYS" projectFiles="true">
+          <itemPath>startup_stm32f2xx.s</itemPath>
+          <itemPath>../src/system_stm32f2xx.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f1" displayName="StdPeriph_Driver" projectFiles="true">
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/misc.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_adc.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_dac.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_dma.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_exti.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_gpio.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_i2c.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_rcc.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_sdio.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_spi.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_syscfg.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_tim.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_usart.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="System" projectFiles="true">
+        <itemPath>../../../../Utilities/Third_Party/System/iprintf.c</itemPath>
+        <itemPath>../../../../Utilities/Third_Party/System/sckit_debug.c</itemPath>
+        <itemPath>../../../../Utilities/Third_Party/System/serial_driver.c</itemPath>
+        <itemPath>../../../../Utilities/Third_Party/System/syscalls.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="User" projectFiles="true">
+        <itemPath>lcd.c</itemPath>
+        <itemPath>lcd.h</itemPath>
+        <itemPath>../src/main.c</itemPath>
+        <itemPath>../src/stm32f2xx_it.c</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>openocd-board.cfg</itemPath>
+      <itemPath>stm32_flash.ld</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="SC-KIT" type="1">
+      <toolsSet>
+        <compilerSet>CodeSourceryARM|CodeSourceryARM</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>0</developmentMode>
+          <incDir>
+            <pElem>../inc</pElem>
+            <pElem>../../../../Libraries/CMSIS/Include</pElem>
+            <pElem>../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include</pElem>
+            <pElem>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc</pElem>
+            <pElem>../../../../Utilities/STM32_EVAL</pElem>
+            <pElem>../../../../Utilities/STM32_EVAL/Common</pElem>
+            <pElem>../../../../Utilities/STM32_EVAL/SCKIT_EVAL</pElem>
+            <pElem>../../../../Utilities/Third_Party/System</pElem>
+          </incDir>
+          <commandLine>-mthumb -mcpu=cortex-m3 -ggdb -Wextra -ffunction-sections -fdata-sections -O0</commandLine>
+          <preprocessorList>
+            <Elem>STM32F2XX</Elem>
+            <Elem>USE_SCKIT_EVAL</Elem>
+            <Elem>USE_STDPERIPH_DRIVER</Elem>
+          </preprocessorList>
+          <warningLevel>2</warningLevel>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>../inc</pElem>
+            <pElem>../../../../Libraries/CMSIS/Include</pElem>
+            <pElem>../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include</pElem>
+            <pElem>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc</pElem>
+            <pElem>../../../../Utilities/STM32_EVAL</pElem>
+            <pElem>../../../../Utilities/STM32_EVAL/Common</pElem>
+            <pElem>../../../../Utilities/STM32_EVAL/SCKIT_EVAL</pElem>
+            <pElem>../../../../Utilities/Third_Party/System</pElem>
+          </incDir>
+          <commandLine>-mthumb -mcpu=cortex-m3 -ggdb -Wextra -ffunction-sections -fdata-sections -O0</commandLine>
+          <preprocessorList>
+            <Elem>STM32F2XX</Elem>
+            <Elem>USE_SCKIT_EVAL</Elem>
+            <Elem>USE_STDPERIPH_DRIVER</Elem>
+          </preprocessorList>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <asmTool>
+          <developmentMode>0</developmentMode>
+          <warningLevel>2</warningLevel>
+          <commandLine>-c -mthumb -mcpu=cortex-m3 -g3 -Wa,--warn -x assembler-with-cpp</commandLine>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/Application.elf</output>
+          <commandLine>-mthumb -mcpu=cortex-m3 -Tstm32_flash.ld -Wl,-Map=${CND_DISTDIR}/${CND_CONF}/Application.map -Wl,--gc-sections</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include/stm32f2xx.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include/system_stm32f2xx.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/CMSIS/Include/core_cm3.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/misc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_adc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_can.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_crc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_cryp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dac.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dbgmcu.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dcmi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dma.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_exti.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_flash.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_fsmc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_gpio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_hash.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_i2c.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_iwdg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_pwr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rcc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rng.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rtc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_sdio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_spi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_syscfg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_tim.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_usart.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_wwdg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/misc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_adc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_dac.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_dma.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_exti.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_gpio.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_i2c.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_rcc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_sdio.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_spi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_syscfg.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_tim.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_usart.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Project/AVS-Demos/01_AVS-SC-KIT-Led_Blick/inc/system_conf.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/Common/stm32_eval_spi_accel.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/Common/stm32_eval_spi_accel.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/stm32_eval.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/stm32_eval.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/System/iprintf.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/System/sckit_debug.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/System/sckit_debug.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/System/serial_driver.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/System/serial_driver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/System/syscalls.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/System/syscalls.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../inc/stm32f2xx_it.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/stm32f2xx_it.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/system_stm32f2xx.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lcd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lcd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="startup_stm32f2xx.s" ex="false" tool="4" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
